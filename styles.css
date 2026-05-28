@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.btn{
+    height: 75px;
+    width:75px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.number{
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+.number:hover{
+    background-color: orange;
+}
+
+.operator{
+    border: 1px solid rgb(55, 77, 219);
+    border-radius: 10px;
+}
+
+.operator:hover{
+    background-color: rgb(55, 77, 219);
+}
+
+.float{
+    border: 1px solid #CCCCFF;
+    border-radius: 10px;
+}
+
+.float:hover{
+    background-color: #CCCCFF;
+}
+
+.equal{
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+
+.equal:hover{
+    background-color: purple;
+}
+
+.clear{
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.clear:hover{
+    background-color: grey;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen{
+    width: 300px;
+    border: 1px solid salmon;
+    height: 75px;
+    margin: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
